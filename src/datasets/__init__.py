@@ -1,0 +1,8 @@
+from .PBTGF30 import PBTGF30
+from .PBTGF0 import PBTGF0
+
+DATASET_REGISTRY= {
+    "PBTGF30": PBTGF30,
+    "PBTGF0": PBTGF0
+}
+__all__ = [DATASET_REGISTRY.keys()]
