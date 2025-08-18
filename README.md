@@ -4,6 +4,11 @@ This project accompanies the publication
 **"Machine-Learning-Enabled Comparative Modelling of the Creep Behaviour of Unreinforced PBT and Short-Fibre Reinforced PBT Using Prony and Fractional Derivative Models"**  
 by Eduard Klatt, Bernd Zimmering, Oliver Niggemann, and Natalie Rauter, published in *Applied Mechanics* 2025.
 
+
+**The publication is open access and can be found here: [https://doi.org/10.3390/applmech6030060](https://doi.org/10.3390/applmech6030060)**
+
+*If you use this code or dataset in academic or professional work, please cite the publication. Find the bibtex in the [last section](#Citation) of this readme.*
+
 ---
 
 ## Abstract
@@ -171,11 +176,20 @@ For questions about the project or setup, please contact the project owner:
 
 If you use this code or dataset in academic or professional work, please cite:
 
-> Klatt, E.; Zimmering, B.; Niggemann, O.; Rauter, N.  
-> "Machine-Learning-Enabled Comparative Modelling of the Creep Behaviour of Unreinforced PBT and Short-Fibre Reinforced PBT Using Prony and Fractional Derivative Models"  
-> *Applied Mechanics* 2025.
-
-A BibTeX entry will be provided here once available.
-
+```bibtex
+@Article{applmech6030060,
+AUTHOR = {Klatt, Eduard and Zimmering, Bernd and Niggemann, Oliver and Rauter, Natalie},
+TITLE = {Machine-Learning-Enabled Comparative Modelling of the Creep Behaviour of Unreinforced PBT and Short-Fibre Reinforced PBT Using Prony and Fractional Derivative Models},
+JOURNAL = {Applied Mechanics},
+VOLUME = {6},
+YEAR = {2025},
+NUMBER = {3},
+ARTICLE-NUMBER = {60},
+URL = {https://www.mdpi.com/2673-3161/6/3/60},
+ISSN = {2673-3161},
+ABSTRACT = {This study presents an approach based on data-driven methods for determining the parameters needed to model time-dependent material behaviour. The time-dependent behaviour of the thermoplastic polymer polybutylene terephthalate is investigated. The material was examined under two conditions, one with and one without the inclusion of reinforcing short fibres. Two modelling approaches are proposed to represent the time-dependent response. The first approach is the generalised Maxwell model formulated through the classical exponential Prony series, and the second approach is a model based on fractional calculus. In order to quantify the comparative capabilities of both models, experimental data from tensile creep tests on fibre-reinforced polybutylene terephthalate and unreinforced polybutylene terephthalate specimens are analysed. A central contribution of this work is the implementation of a machine-learning-ready parameter identification framework that enables the automated extraction of model parameters directly from time-series data. This framework enables the robust fitting of the Prony-based model, which requires multiple characteristic times and stiffness parameters, as well as the fractional model, which achieves high accuracy with significantly fewer parameters. The fractional model benefits from a novel neural solver for fractional differential equations, which not only reduces computational complexity but also permits the interpretation of the fractional order and stiffness coefficient in terms of physical creep resistance. The methodological framework is validated through a comparative assessment of predictive performance, parameter cheapness, and interpretability of each model, thereby providing a comprehensive understanding of their applicability to long-term material behaviour modelling in polymer-based composite materials.},
+DOI = {10.3390/applmech6030060}
+}
+```
 ---
 
